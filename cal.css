@@ -1,0 +1,58 @@
+html{
+    background-color: black;
+}
+.cal{
+      width: 300px;
+      height: auto;
+    background-color: rgb(26, 128, 218);
+   
+   
+  
+}
+#display{
+    width: 240px;
+    margin-top: 20px;
+   margin-left: 30px;
+   /* text-align: end; */
+   height: 30px;
+}
+.f{
+       flex-wrap: wrap;
+       margin-top: 40px;
+       margin-left: 40px;
+      
+}
+.button_function{
+    height: 40px;
+    width: 43px;
+    margin: 10px 6px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bolder;
+  transition: .3s;
+
+}
+.button_function:hover{
+    background-color: rgb(213, 255, 24);
+    border-radius: 0%;
+}
+#zero_c{
+    margin-left: 46px;
+    margin-top: 10px;
+    width: 170px;
+    height:40px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: .3s;
+}
+#zero_c:hover{
+    background-color: rgb(213, 255, 24);
+    border-radius: 0%;
+}
+#is{
+    height: 100px;
+    position: absolute;
+    left: 227px;
+    top: 283px;
+}
